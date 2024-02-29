@@ -1111,7 +1111,7 @@ body {
 
       .table .base::before, 
     .table .base::after {
-      transform: none;
+      transform: translateZ(0vmin);
       
     }
 
