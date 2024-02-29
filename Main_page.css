@@ -44,6 +44,20 @@ body {
     animation-play-state: paused;
 }
 
+@media only screen and (max-width: 600px) {
+    .canvas {
+    animation: rotateDrawing 15s linear infinite;
+    width: 70vmin;
+    height: 75vmin;
+    background: #f002;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 1, 0, 100deg);
+    transform-style: preserve-3d;
+  }
+
+}
 
   .cube {
     --h: 0deg;
