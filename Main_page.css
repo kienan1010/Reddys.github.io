@@ -1102,27 +1102,11 @@ body {
     transform: none;
   }
 
-  @media all and (min-width:0px) and (max-width: 1024px) {
-    @keyframes rotateDrawing {
-      0% {
-        transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-        
-      }
-      100% {
-        transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-      }
-    }
-
-    .canvas {
-      animation: rotateDrawing 15s linear infinite;
-      width: 70vmin;
-      height: 75vmin;
-      background: #f002;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 1, 0, 100deg);
-      transform-style: preserve-3d;
+@media screen and (max-width: 767px) {
+  
+    .canvas {animation: none;
+      transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 1, 0, 0deg);
+      
     }
 
     
