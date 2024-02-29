@@ -1106,13 +1106,14 @@ body {
   
     .canvas {animation: none;
       transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 1, 0, 0deg);
-      
     }
 
-      .table .base::before, 
-    .table .base::after {
-      transform: translateZ(0vmin);
-      
+
+      .shade::before {
+    transform: none;
+   
+  }
+    
     }
 
   }
