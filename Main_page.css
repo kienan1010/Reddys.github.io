@@ -44,25 +44,7 @@ body {
     animation-play-state: paused;
 }
 
-@media only screen and (max-width: 600px) {
-    @keyframes rotateDrawing {
-    0% {
-      transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-    -webkit-transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-    -moz-transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-        -ms-transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-        -o-transform:translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-        
-        
-    }
-    100% {
-      transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(-360deg);
-        -webkit-transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(-360deg);
-        -moz-transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(-360deg);
-        -ms-transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(-360deg);
-        -o-transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(-360deg);
-    }
-  }
+
   
   .canvas {
     animation: rotateDrawing 15s linear infinite;
