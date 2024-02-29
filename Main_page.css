@@ -1102,16 +1102,4 @@ body {
     transform: none;
   }
 
-  @media all and (min-width:0px) and (max-width: 1024px) {
-    @keyframes rotateDrawing {
-      0% {
-        transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-        
-      }
-      100% {
-        transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
-      }
-    }
 
-    
-  }
