@@ -1109,7 +1109,7 @@ body {
         
       }
       100% {
-        transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(-360deg);
+        transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
       }
     }
   }
