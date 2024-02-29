@@ -1111,9 +1111,12 @@ body {
 
       .shade::before {
     transform: none;
-   
   }
+
+     .shade::after {
+    transform: none;
+     }
     
     }
 
-  }
+  
