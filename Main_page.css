@@ -27,7 +27,7 @@ body {
   }
   
   .canvas:active {
-    animation-play-state: ruunning;
+    animation-play-state: running;
   }
   
   .canvas:hover {
