@@ -40,9 +40,6 @@ body {
     animation-play-state: running;
   }
   
-  .canvas:hover {
-    animation-play-state: paused;
-}
 
 
 
