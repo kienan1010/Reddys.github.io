@@ -1109,12 +1109,10 @@ body {
       
     }
 
-     .chair {
-      width: 9vmin;
-      height: 9vmin;
-      transform: translate3d(55vmin, 62vmin, -69vmin) rotateX(90deg) rotate(50deg);
-      transform-origin: bottom center;
-      transform-style: preserve-3d;
+      .table .base::before, 
+    .table .base::after {
+      transform: none;
+      
     }
 
   }
