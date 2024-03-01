@@ -1110,12 +1110,6 @@ body {
        -webkit-transform-style: preserve-3d;
     }
 
-    .shade {
-  transform-style: flat;
-}
-    .shade img {
-  transform-style:flat !important;
-}
 
 }
 
