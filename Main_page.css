@@ -570,6 +570,12 @@ body {
       repeating-linear-gradient(to right, #c2110b 0 6.25%, #c2110b 0 12.5%);
   }
   
+  .shade img {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 25vh;
+    width: 36vw;
+  }
 
   .shade::before {
     content: "";
