@@ -1108,8 +1108,7 @@ body {
     .canvas {animation: none;
       transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 0, 0, 0deg);
       transform-style: preserve-3d;
-      background-color: #fff ;
-    background-image: url("C:\Users\Kienan Smith\Desktop\html_css\images\background.png");
+    
     }
 
     
