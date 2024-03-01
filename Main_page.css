@@ -1131,8 +1131,16 @@ body {
   transform-style: flat;
 }
 
+.shade::before{
+  transform-style: flat;
+}
+
+.shade::after{
+  transform-style: flat;
+}
 
 }
+
   
 
   
