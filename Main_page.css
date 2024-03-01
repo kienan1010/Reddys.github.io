@@ -1105,8 +1105,9 @@ body {
 @media screen and (max-width: 767px) {
   
     .canvas {animation: none;
-      transform: translate(-50%, -50%) translate3d(0vmin, 0, 0vmin) rotate3d(0, 1, 0, 0deg);
-             transform-style: preserve-3d;
+      transform: translate(-50%, -50%) translate3d(0vmin, 0, 0vmin) rotate3d(0, 0, 0, 0deg);
+      transform-style: preserve-3d;
+      
     }
 
     .counter-top {
@@ -1121,6 +1122,6 @@ body {
 .desk {
   display: none;
 }
-}
+  
 
   
