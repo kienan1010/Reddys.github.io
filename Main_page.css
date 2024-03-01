@@ -1115,7 +1115,7 @@ body {
   transform-style: flat;
 }
     .shade img {
-  transform-style:flat ;
+  transform-style:flat !important;
 }
 
 }
