@@ -1062,15 +1062,12 @@ body {
 @media screen and (max-width: 767px) {
   
     .canvas {
-      animation: none;
       transform: translate(-50%, -50%) translate3d(-15vmin, 0, -30vmin) rotate3d(0, 0, 0, 0deg);
       transform-style: preserve-3d;
       -webkit-transform-style: preserve-3d;
       
     }
-    .counter-top {transform: translate3d(19vmin, 57vmin, -49vmin);
-      transform: 
-}
+
 
 
 
