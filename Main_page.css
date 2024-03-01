@@ -1114,6 +1114,10 @@ body {
     .shade {
   transform-style: flat;
 }
+    .shade img {
+  transform-style:flat ;
+}
+
 }
 
   
