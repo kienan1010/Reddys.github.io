@@ -1,11 +1,12 @@
 html {
-  position: fixed;
+  position: absolute;
   height: 100%;
-  width: auto;
+  width: 100%;
   overflow: hidden;
   background: linear-gradient(#9cf, #ffffff);
 }
 body {
+  position: absolute;
  overflow-x: hidden;
  overflow-y: hidden;
     height: 100dvh;
@@ -1062,7 +1063,7 @@ body {
   
     .canvas {
       animation: none;
-      transform: translate(-50%, -50%) translate3d(-10vmin, 0, -25vmin) rotate3d(0, 0, 0, 0deg);
+      transform: translate(-50%, -50%) translate3d(-15vmin, 0, -30vmin) rotate3d(0, 0, 0, 0deg);
       transform-style: preserve-3d;
       -webkit-transform-style: preserve-3d;
       
@@ -1071,6 +1072,9 @@ body {
       transform: 
 }
 
+.wall{
+  display: no;
+}
 
 .shade {
   transform-style: flat;
@@ -1083,6 +1087,10 @@ body {
     height: 100%;
 }
 
+html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 body {
   overflow-x: hidden;
   overflow-y: hidden;
