@@ -1116,6 +1116,9 @@ body {
     .table {
         transform-style: flat;
     }
+    .table {
+        transform-style:flat;
+    }
     
     }
 
