@@ -1108,21 +1108,12 @@ body {
       transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 1, 0, 0deg);
     }
 
-
-     .wall {
-      transform-style: flat;
-    }
-
-    .table {
-        transform-style: flat;
-    }
-    .table {
-        transform-style: flat;
-    }
-
     .shade {
         transform-style: flat;
     }
+
+    .shade img {
+        transform-style: flat;
 }
 
   
