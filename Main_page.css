@@ -566,6 +566,7 @@ body {
    display: flex;
     transform: rotateX(55deg);
     transform-origin: 50% 0;
+    position: absolute;
     
   }
   
@@ -576,6 +577,7 @@ body {
     margin-bottom: auto;
     width: 100%;
   height: 100%;
+  position: absolute;
   }
   .shade::before {
     content: "";
@@ -911,59 +913,7 @@ body {
   }
   
  
-  
-  /***/
-  
-  #youtube {
-    z-index: 2;
-    display: block;
-    width: 100px;
-    height: 70px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: red;
-    border-radius: 50% / 11%;
-    transition: transform 0.5s;
-  }
-  
-  #youtube:hover,
-  #youtube:focus {
-    transform: scale(1.1);
-  }
-  
-  #youtube::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 7.5%;
-    left: -6%;
-    width: 112%;
-    height: 85%;
-    background: red;
-    border-radius: 9% / 50%;
-  }
-  
-  #youtube::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    width: 45px;
-    height: 30px;
-    border: 15px solid transparent;
-    box-sizing: border-box;
-    border-left: 30px solid white;
-  }
-  
-  #youtube span {
-    font-size: 0;
-    position: absolute;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-  }
+
   
 
 
@@ -1104,7 +1054,7 @@ body {
 @media screen and (max-width: 767px) {
   
     .canvas {
-    
+      animation: none;
       transform: translate(-50%, -50%) translate3d(-10vmin, 0, -25vmin) rotate3d(0, 0, 0, 0deg);
       transform-style: preserve-3d;
       -webkit-transform-style: preserve-3d;
@@ -1126,10 +1076,9 @@ body {
     height: 100%;
 }
 
- body {
- overflow-x: hidden;
- overflow-y: hidden;
- }
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
 
-
+}
 }
