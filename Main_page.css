@@ -1106,41 +1106,15 @@ body {
 @media screen and (max-width: 767px) {
   
     .canvas {animation: none;
-      transform: translate(-50%, -50%) translate3d(0vmin, 0, 0vmin) rotate3d(0, 0, 0, 0deg);
+      transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 0, 0, 0deg);
       transform-style: preserve-3d;
       
     }
-
-    .counter-top {
-      display: none;
-    }
+.canvas {display: none;
+background-color: #fff ;
+background-image: url("C:\Users\Kienan Smith\Desktop\html_css\images\background.png");}
     
-
-    .display-top{
-      display: none;
-      -
-    
-    }
-.desk {
-  display: none;
 }
-.shade {
-  transform-style: flat;
-}
-.shade img {
-  transform-style: flat;
-}
-
-.shade::before{
-  transform-style: flat;
-}
-
-.shade::after{
-  transform-style: flat;
-}
-
-}
-
   
 
   
