@@ -1110,6 +1110,10 @@ body {
       transform-style: preserve-3d;
        -webkit-transform-style: preserve-3d;
     }
+
+    .shade {
+  transform-style: flat;
+}
 }
 
   
