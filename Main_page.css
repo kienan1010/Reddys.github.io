@@ -1109,12 +1109,8 @@ body {
              transform-style: flat;
     }
 
-    .shade {
-        transform-style: flat;
-    }
-
-    .shade img {
-        transform-style: flat;
+    .display {
+        display: none;
 }
 }
 
