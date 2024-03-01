@@ -1122,6 +1122,12 @@ body {
 .desk {
   display: none;
 }
+
+.shade {
+    transform-style: flat;
+}
+
+}
   
 
   
