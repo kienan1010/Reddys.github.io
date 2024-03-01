@@ -560,14 +560,12 @@ body {
   
   .shade {
     left: -1%;
-    width: 100%;
+    width: 36vw;
     height: 25vh;
-    background: red;
+   
     transform: rotateX(55deg);
     transform-origin: 50% 0;
-    background: 
-      linear-gradient(#0000, #0001),
-      repeating-linear-gradient(to right, #c2110b 0 6.25%, #c2110b 0 12.5%);
+    
   }
   
   .shade img {
