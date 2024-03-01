@@ -1117,9 +1117,11 @@ body {
         transform-style: flat;
     }
     .table {
-        transform-style:flat;
+        transform-style: flat;
     }
-    
+
+    .shade {
+        transform-style: flat;
     }
 
   
