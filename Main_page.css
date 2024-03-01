@@ -1109,16 +1109,18 @@ body {
              transform-style: flat;
     }
 
-    .display {
-        display: none;
-}
-
     .counter-top {
-        display: none:
+      display: none;
     }
-    .desk {
-        display: none:
+    
+
+    .display-top{
+      display: none;
+    
     }
+.desk {
+  display: none;
+}
 }
 
   
