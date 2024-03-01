@@ -1,7 +1,9 @@
 html {
   position: fixed;
   height: 100%;
+  width: auto;
   overflow: hidden;
+  background: linear-gradient(#9cf, #ffffff);
 }
 body {
  overflow-x: hidden;
