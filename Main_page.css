@@ -1105,7 +1105,7 @@ body {
 
 @media screen and (max-width: 767px) {
   
-    .canvas {animation: none;
+    .canvas {
       transform: translate(-50%, -50%) translate3d(0vmin, 0, 0vmin) rotate3d(0, 0, 0, 0deg);
       transform-style: preserve-3d;
        -webkit-transform-style: preserve-3d;
