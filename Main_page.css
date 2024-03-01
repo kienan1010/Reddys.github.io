@@ -1124,10 +1124,10 @@ body {
 }
 
 .shade {
-    transform-style: flat;
+    transform-style: preserve-3d;
 }
 .shade img {
-  transform-style: flat;
+  transform-style: preserve-3d;
 }
 }
   
