@@ -1087,9 +1087,10 @@ html{
   overflow-x: hidden;
   overflow-y: hidden;
 }
-body {
+.body {
   overflow-x: hidden;
   overflow-y: hidden;
+  perspective: 100px;
 
 }
 }
