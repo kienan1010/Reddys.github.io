@@ -1065,7 +1065,7 @@ body {
       transform: translate(-50%, -50%) translate3d(-15vmin, 0, -30vmin) rotate3d(0, 0, 0, 0deg);
       transform-style: preserve-3d;
       -webkit-transform-style: preserve-3d;
-      
+      backface-visibility: hidden;
     }
 
 
