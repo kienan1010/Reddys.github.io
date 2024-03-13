@@ -1064,8 +1064,8 @@ body {
     .canvas {
       animation: none;
       transform: translate(-50%, -50%) translate3d(-15vmin, 0, -30vmin) rotate3d(0, 0, 0, 0deg);
-      transform-style: flat;
-      -webkit-transform-style: flat;
+      transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
       
     }
 
@@ -1073,7 +1073,7 @@ body {
 
 
 .shade {
-  transform-style: preserve-3d;
+  transform-style: flat;
   width: 100%;
     height: 45%;
 }
