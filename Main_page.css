@@ -1108,25 +1108,12 @@ body {
   @media screen and (max-width: 767px) {
   
     .canvas {
+        transform: translateZ(0px);
       transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 1, 0, 00deg);
       -webkit-transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 1, 0, 00deg);
     }
    
-    .table .base::before, 
-  .table .base::after {
-    transform: translateZ(0vmin);
-      -webkit-transform: translateZ(0vmin);
-  }
-
-      .shade::before {
-
-          -webkit-transform:translate3d(0,0,0);
-      }
-
-      .shade::after {
-        -webkit-transform:translate3d(0,0,0);
-          
-      }
+    
   
   
 
