@@ -1,23 +1,16 @@
-html {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: linear-gradient(#9cf, #ffffff);
-}
 body {
-  position: absolute;
- overflow-x: hidden;
- overflow-y: hidden;
-    height: 100dvh;
-    width: 100dvw;
+    margin: 0;
+    height: 100vh;
     background: linear-gradient(#9cf, #ffffff);
     perspective: 100vh;
   }
+
+ 
   
   @keyframes rotateDrawing {
     0% {
       transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(0deg);
+      
     }
     100% {
       transform: translate(-50%, -50%) translateZ(-20vmin) rotateY(-360deg);
@@ -570,22 +563,19 @@ body {
   .shade {
     left: -1%;
     width: 100%;
-  height: 45%;
-   display: flex;
+    height: 45%;
+    background: #c2110b;
     transform: rotateX(55deg);
     transform-origin: 50% 0;
-    position: absolute;
-    
+    background-image:image(C:\Users\Kienan Smith\Desktop\html_css\images\reddy_logo_no_outline.jpeg) ;
   }
-  
-
   
   .shade img {
     margin-top: auto;
     margin-bottom: auto;
+    height: 85%;
     width: 100%;
-  height: 100%;
-  position: absolute;
+    background-image ;
   }
   .shade::before {
     content: "";
@@ -921,13 +911,68 @@ body {
   }
   
  
-
+  
+  /***/
+  
+  #youtube {
+    z-index: 2;
+    display: block;
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: red;
+    border-radius: 50% / 11%;
+    transition: transform 0.5s;
+  }
+  
+  #youtube:hover,
+  #youtube:focus {
+    transform: scale(1.1);
+  }
+  
+  #youtube::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7.5%;
+    left: -6%;
+    width: 112%;
+    height: 85%;
+    background: red;
+    border-radius: 9% / 50%;
+  }
+  
+  #youtube::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 45px;
+    height: 30px;
+    border: 15px solid transparent;
+    box-sizing: border-box;
+    border-left: 30px solid white;
+  }
+  
+  #youtube span {
+    font-size: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
   
 
 
   body
   {
-
+    margin: 0;
+    padding: 0;
+    
+    
     color: #000000;
     font-family: "Avenir Next", "Avenir", sans-serif;
   }
@@ -1033,7 +1078,7 @@ body {
   {
     position: absolute;
     width: 300px;
-    margin: -100px 0 0 -60px;
+    margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
     
@@ -1059,34 +1104,18 @@ body {
     transform: none;
   }
 
-@media screen and (max-width: 767px) {
+
+  @media screen and (max-width: 767px) {
   
     .canvas {
-      transform: translate(-50%, -50%) translate3d(-15vmin, 0, -30vmin) rotate3d(0, 0, 0, 0deg);
-      transform-style: preserve-3d;
-      -webkit-transform-style: preserve-3d;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
+      transform: translate(-50%, -50%) translate3d(0vmin, 0, -40vmin) rotate3d(0, 1, 0, 00deg);
+      
     }
+   
+    .table .base::before, 
+  .table .base::after {
+    transform: translateZ(0vmin);
+  }
+  
 
-
-
-
-.shade {
-  -webkit-transform-style: preserve-3d;
-}
-.shade img {
-  -webkit-transform-style: preserve-3d;
-}
-
-html{
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-.body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  perspective: 100px;
-
-}
-}
+  }
