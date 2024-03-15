@@ -3,6 +3,8 @@ body {
     height: 100vh;
     background: linear-gradient(#9cf, #ffffff);
     perspective: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 
  
