@@ -1117,6 +1117,17 @@ body {
     transform: translateZ(0vmin);
       -webkit-transform: translateZ(0vmin);
   }
+
+      .shade::before {
+
+          -webkit-transform:translate3d(0,0,0);
+      }
+
+      .shade::after {
+        -webkit-transform:translate3d(0,0,0);
+          
+      }
+  
   
 
   }
