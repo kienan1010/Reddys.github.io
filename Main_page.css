@@ -1078,6 +1078,7 @@ body {
     height: 45%;
   position: fixed;
   display: block;
+  -webkit-transform-style: preserve-3d;
 }
 .shade img {
   transform-style: flat ;
@@ -1085,6 +1086,7 @@ body {
     height: 100%;
   position: fixed;
   image-rendering:optimizeSpeed;
+  -webkit-transform-style: preserve-3d;
 }
 
 html{
